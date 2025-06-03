@@ -36,3 +36,15 @@
     align-items: center;
     gap: 20px;
 }
+
+#reset-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#reset {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
