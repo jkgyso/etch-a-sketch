@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #button-container {
     display: flex; 
     justify-content: center;
@@ -16,7 +23,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 960px;
     margin: 10px;
     padding: 10px;
 }
@@ -26,7 +32,7 @@
     border-radius: 5px;
 }
 
-.col, .row {
+ .row {
     border: 1px solid black;
 }
 
